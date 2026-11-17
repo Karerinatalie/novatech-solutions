@@ -367,18 +367,15 @@ html{
     cursor: pointer;
 }
 @media (max-width: 768px){
-    
+    .menu-toggle{
+        display: block;
     }
-nav{
+.navbar{
     display: none;
     flex-direction: column;
     width: 100%;
 }
-nav.active{
+.navbar.active{
     display: flex;
 }
 }
-.menu-toggle{
-        display: block !important;
-        color: red !important;
-        font-size: 35px !important;
